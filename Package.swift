@@ -26,7 +26,7 @@ let package = Package(
         ///
         .package(
             url: "https://github.com/jeremyabannister/XCTestToolkit",
-            "0.2.3" ..< "0.3.0"
+            "0.2.5" ..< "0.3.0"
         ),
     ],
     targets: [
