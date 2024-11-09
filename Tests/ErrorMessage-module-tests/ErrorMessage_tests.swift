@@ -131,7 +131,7 @@ extension ErrorMessage_tests {
 private extension ErrorMessage_tests {
     
     ///
-    struct ValuesWereNotEqual<Value: Equatable>: Error {
+    struct ValuesWereNotEqual<Value: Equatable & Sendable>: Error {
         let expected: Value
         let found: Value
     }

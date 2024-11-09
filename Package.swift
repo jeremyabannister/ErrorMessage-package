@@ -1,4 +1,4 @@
-// swift-tools-version: 5.10
+// swift-tools-version:6.0
 
 ///
 import PackageDescription
@@ -26,7 +26,7 @@ let package = Package(
         ///
         .package(
             url: "https://github.com/jeremyabannister/XCTestToolkit",
-            "0.2.5" ..< "0.3.0"
+            .upToNextMinor(from: "0.2.6")
         ),
     ],
     targets: [
